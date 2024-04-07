@@ -102,7 +102,18 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
     * [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
     * [Next steps](#next-steps)
 * [Performance vs scalability](#performance-vs-scalability)
+    * Step Scaling in Auto-scaling : https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-scaling-simple-step.html
+    * https://newsletter.ashishps.com/p/scalability
+    * The Scalability Cube
+    * 50 rules of scalability ( Look for some common ways to make a system more scalable )
 * [Latency vs throughput](#latency-vs-throughput)
+* ThroughPut vs Bandwidth
+    * Throughput is the amount of data is transmitted during a specified time period via a network, interface or channel. Also called as effective data rate or payload rate.
+    * Bandwidth : is the data carrying capacity of the network/transmission medium. Essentially,
+    * Throughput is a measure of how fast and efficient the program is, and maximum throughput is often called "bandwidth. 
+* Latency vs Response Time
+    * Latency is the time duration in which a request is waiting to be processed. Until the request is picked by the server, it is latent which means it's inactive. A high latency indicates issues in the network or probably an overloaded server. Latency consists of only the delays- i.e the time the request is waiting to be picked.
+    * Response Time :  is the time between a client sending a request and receiving a response.
 * [Availability vs consistency](#availability-vs-consistency)
     * [CAP theorem](#cap-theorem)
         * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
