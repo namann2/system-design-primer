@@ -125,6 +125,7 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
 * [Availability patterns](#availability-patterns)
     * [Fail-over](#fail-over)
     * [Replication](#replication)
+    * https://www.youtube.com/watch?v=WC7kpQPGPp8 + Check Floating IP Link as well
     * [Availability in numbers](#availability-in-numbers)
 * [Domain name system](#domain-name-system)
 * [Content delivery network](#content-delivery-network)
