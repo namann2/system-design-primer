@@ -695,11 +695,13 @@ Additional benefits include:
     * Removes the need to install [X.509 certificates](https://en.wikipedia.org/wiki/X.509) on each server
 * **Session persistence** - Issue cookies and route a specific client's requests to same instance if the web apps do not keep track of sessions
 
-To protect against failures, it's common to set up multiple load balancers, either in [active-passive](#active-passive) or [active-active](#active-active) mode.
-⭐️ 
-Check this : https://www.youtube.com/watch?v=USCCqS9MbHs&list=TLPQMDcwNDIwMjSyOFK3uMdRpg
+To protect against failures, it's common to set up multiple load balancers, 
+either in [active-passive](#active-passive) or [active-active](#active-active) mode. <br>
+⭐️ Check this : https://www.youtube.com/watch?v=USCCqS9MbHs&list=TLPQMDcwNDIwMjSyOFK3uMdRpg
 This approach of floating IP's can be used to provide high availability by eliminating single point of failure w.r.t any of the "statful component."
 
+Load Balancing Algorithms : https://aws.amazon.com/what-is/load-balancing/
+<br>
 Load balancers can route traffic based on various metrics, including:
 
 * Random
